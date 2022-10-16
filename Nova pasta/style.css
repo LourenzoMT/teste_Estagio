@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed&display=swap%27');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    margin: 0% auto;
+}
+
+header{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 5vh;
+    display: flex;
+    align-items: left;
+    background-color: #feffee;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fundoGradiente {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, #68acd6, #d9f3ee 100%);
+    height: 100%;
+    width: 100%;
+    padding: 5vw;
+    margin-left: -5%;
+}
+  
+td, tr {
+    background-color: #ffffff79;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid black;
+    border-radius: 10px 5px;
+}
+
+select {
+    border-radius: 10px 5px;
+}
